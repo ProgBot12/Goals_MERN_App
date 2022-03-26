@@ -1,0 +1,19 @@
+{
+  "name": "goals_mern_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgBot12/Goals_MERN_App.git"
+  },
+  "author": "Emir Cokrlija",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProgBot12/Goals_MERN_App/issues"
+  },
+  "homepage": "https://github.com/ProgBot12/Goals_MERN_App#readme"
+}
