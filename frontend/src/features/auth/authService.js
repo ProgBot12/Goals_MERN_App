@@ -12,7 +12,8 @@ const register = async (userData) => {
 
   return response.data;
 };
-
 const authService = {
   register,
 };
+
+export default authService;
