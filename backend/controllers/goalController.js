@@ -9,6 +9,10 @@ const getGoals = async (req, res) => {
 // @route POST /api/goals
 // @access Private
 const setGoal = async (req, res) => {
+  if (!req.body.text) {
+    res.status(400);
+    throw new Error("No goal text provided");
+  }
   res.status(200).json({ message: "Set goal" });
 };
 
