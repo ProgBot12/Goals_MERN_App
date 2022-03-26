@@ -13,7 +13,10 @@ function Register() {
   const { name, email, password, password2 } = formData;
 
   const onChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
   };
 
   const onSubmit = (e) => {
