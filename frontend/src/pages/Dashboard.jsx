@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import GoalForm from "../components/GoalForm";
 import Spinner from "../components/Spinner";
+import GoalItem from "../components/GoalItem";
 import { getGoals, reset } from "../features/goals/goalSlice";
 
 function Dashboard() {
