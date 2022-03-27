@@ -16,3 +16,6 @@ export const goalSlice = createSlice({
   },
   extraReducers: {},
 });
+
+export const { reset } = goalSlice.actions;
+export default goalSlice.reducer;
