@@ -41,6 +41,17 @@ function Dashboard() {
         <p>Goals Dashboard</p>
       </section>
       <GoalForm />
+      <section className="content">
+        {goals.length > 0 ? (
+          <div className="goals">
+            {goals.map((goal) => (
+              <GoalItem key={goal._id} goal={goal} />
+            ))}
+          </div>
+        ) : (
+          <h3>No goals yet</h3>
+        )}
+      </section>
     </>
   );
 }
